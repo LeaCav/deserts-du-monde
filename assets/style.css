@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "lemonada";
+    src: url(./fonts/Lemonada-Regular.woff2), url(./fonts/Lemonada-SemiBold.woff2), url(./fonts/Lemonada-Regular.ttf), url(./fonts/Lemonada-SemiBold.ttf);
+}
+
+*{
+    width: 1300px ;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+    header img{
+        margin: 20px;
+        width: 15%;
+    }
+    h1{
+        margin: 0; 
+        width: 30%;
+        font-family: "lemonade";
+        color: #8C4303;
+        font-size: 2.5rem;
+    }
+    ul{
+        width: 50%;
+        display: flex;
+        flex-direction: row-reverse;
+        text-transform: uppercase;
+        
+    }
+       ul li{
+            font-weight: bold;
+            font-size: 1.2rem;
+            width: auto;
+            margin: 30px;
+        }
+
+main{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+    article{
+        width: 60%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+        h2{
+            margin: 20px;
+            font-size: 1.2rem;
+
+        }
+        article img{
+            width: 100%;
+            margin: 20px;
+
+        }
+        p{
+            width: 100%;
+            margin:5px 20px;
+
+        }
+    section{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+        h3{
+
+        }
+        ol{
+
+        }
+        ol li{
+
+        }
+        div{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+        div img{
+            width: 80px;
+            margin: 5px;
+        }
+
+footer{
+    
+}
