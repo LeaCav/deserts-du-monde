@@ -12,6 +12,11 @@
     font-size: 20px;
 }
 
+* {
+}
+
+
+
 header{
     width: 100%;
     margin: 20px;
@@ -45,6 +50,9 @@ header{
             width: auto;
             margin: 30px;
         }
+        ul li:hover{
+            text-decoration: underline 2px #8C4303;
+        }
 
 main{
     width: 100%;
@@ -55,18 +63,20 @@ main{
 
     article{
         width: 60%;
-        margin: 20px;
+        margin:40px;
         display: flex;
         flex-direction: column;
     }
         h2{
+            width: 100%;
             margin: 20px;
             font-size: 1.2rem;
+            text-align: center;
 
         }
         article img{
             width: 100%;
-            margin: 20px;
+            margin: 10px 20px;
 
         }
         p{
@@ -76,20 +86,29 @@ main{
         }
     section{
         width: 40%;
+        margin: 40px;
         display: flex;
         flex-direction: column;
     }
         h3{
+            margin: 20px 40px;
+            width: 100%;
+            font-size: 1.1rem;
+            color: #422100;
 
         }
         ol{
+            margin: 20px 40px 50%;
+            width: 100%;
 
         }
         ol li{
+            width: 100%;
 
         }
         div{
             width: 100%;
+            margin: 20px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -99,7 +118,10 @@ main{
             width: 80px;
             margin: 5px;
         }
+        div img:hover{
+            opacity: 0.8;
+        }
 
 footer{
-    
+    text-align: center;
 }
